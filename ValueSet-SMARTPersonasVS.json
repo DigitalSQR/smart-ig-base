@@ -1,0 +1,24 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "SMARTPersonasVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul/></div>"
+  },
+  "url" : "http://worldhealthorganization.github.io/who.fhir.smart-base/ValueSet/SMARTPersonasVS",
+  "version" : "0.1.0",
+  "name" : "SMARTPersonasVS",
+  "title" : "SMART Guidelines Personas",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2023-08-15T09:55:55+00:00",
+  "publisher" : "WHO",
+  "contact" : [{
+    "name" : "WHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://who.int"
+    }]
+  }],
+  "description" : "SMART Guidelines personas"
+}

@@ -1,0 +1,7 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-who.fhir.smart-base.json	2508	-	0	0	0	0	0	1	4	383	0	0	0	0	0	0	0	1	0	0	84	107	0	1	0	2	0	0
+fsh-generated/resources/StructureDefinition-SMARTImplementationGuide.json	1179	31	0	0	0	1	0	1759	0	1698	0	0	1	0	0	0	0	4	0	0	396	3339	0	0	0	8	1	1
+fsh-generated/resources/StructureDefinition-IMMZ-C-RegisterClient.json	10289	457	0	0	0	0	0	627	0	627	0	0	0	0	0	0	0	1	0	0	143	432	0	0	0	4	0	0
+fsh-generated/resources/ValueSet-SMARTPersonasVS.json	319	10	1	0	0	0	0	0	0	78	0	0	0	0	0	0	0	0	0	0	4	7588	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-SGLogicalModel.json	6977	484	0	0	0	0	0	4056	0	3921	0	0	1	0	0	0	0	2	0	0	1112	4407	0	0	0	22	0	3
+fsh-generated/resources/StructureDefinition-SMARTDecisionTable.json	1714	98	0	0	0	0	0	1945	0	1866	0	0	0	0	0	0	0	1	0	0	401	1624	0	0	0	10	0	0

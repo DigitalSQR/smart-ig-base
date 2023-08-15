@@ -1,0 +1,44 @@
+[
+  {
+    "id" : "who.fhir.smart-base",
+    "type" : "ImplementationGuide",
+    "url" : "http://worldhealthorganization.github.io/who.fhir.smart-base/ImplementationGuide/who.fhir.smart-base",
+    "version" : "0.1.0",
+    "name" : "SMARTBase"
+  },
+  {
+    "id" : "IMMZ-C-RegisterClient",
+    "type" : "StructureDefinition",
+    "url" : "http://worldhealthorganization.github.io/who.fhir.smart-base/StructureDefinition/IMMZ_C_RegisterClient",
+    "version" : "0.1.0",
+    "name" : "IMMZ_C_RegisterClient"
+  },
+  {
+    "id" : "SGLogicalModel",
+    "type" : "StructureDefinition",
+    "url" : "http://worldhealthorganization.github.io/who.fhir.smart-base/StructureDefinition/SGLogicalModel",
+    "version" : "0.1.0",
+    "name" : "SGLogicalModel"
+  },
+  {
+    "id" : "SMARTDecisionTable",
+    "type" : "StructureDefinition",
+    "url" : "http://worldhealthorganization.github.io/who.fhir.smart-base/StructureDefinition/SMARTDecisionTable",
+    "version" : "0.1.0",
+    "name" : "SMARTDecisionTable"
+  },
+  {
+    "id" : "SMARTImplementationGuide",
+    "type" : "StructureDefinition",
+    "url" : "http://worldhealthorganization.github.io/who.fhir.smart-base/StructureDefinition/SMARTImplementationGuide",
+    "version" : "0.1.0",
+    "name" : "SMARTImplementationGuide"
+  },
+  {
+    "id" : "SMARTPersonasVS",
+    "type" : "ValueSet",
+    "url" : "http://worldhealthorganization.github.io/who.fhir.smart-base/ValueSet/SMARTPersonasVS",
+    "version" : "0.1.0",
+    "name" : "SMARTPersonasVS"
+  }
+]
