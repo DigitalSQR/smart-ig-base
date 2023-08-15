@@ -1,0 +1,11 @@
+Profile: SMARTPersona
+Parent: ActorDefinition
+Title: "SMART Personas"
+Description: "Profile that validates the requirements for defining SMART Guidelines personas"
+
+* identifier.value from SMARTPersonasVS (required)
+* type = #person
+* experimental 1..
+* description 1..
+* title 1..
+

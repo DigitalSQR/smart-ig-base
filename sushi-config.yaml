@@ -1,13 +1,9 @@
-# ╭─────────────────────────Commonly Used ImplementationGuide Properties───────────────────────────╮
-# │  The properties below are used to create the ImplementationGuide resource. The most commonly   │
-# │  used properties are included. For a list of all supported properties and their functions,     │
-# │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
-# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: smart-ig-empty
-canonical: http://worldhealthorganization.github.io/smart
-name: SMART
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+
+id: who.fhir.smart-base
+canonical: http://worldhealthorganization.github.io/who.fhir.smart-base
+name: SMARTBase
+title: SMART Guidelines - Base definitions
+description: A repository of computable foundational profiles and dependencies for all SMART Implementation Guides
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
@@ -48,69 +44,10 @@ pages:
     title: Home
     changes.md:
       title: Changes
-    dependencies.md:
-      title: Dependencies
-    references.md:
-      title: References
-    adapting.md:
-      title: Adapting Guidelines for Country use
-  business-requirements.md:
-    title: Business Requirements
-    concepts.md:
-      title: Concepts
-    personas.md:
-      title: Generic Personas
-    scenarios.md:
-      title: User Scenarios
-    business-processes.md:
-      title: Business Processes
-    dictionary.md:
-      title: Data Dictionary
-    decision-logic.md:
-      title: Decision-support logic
-    indicators.md:
-      title: Indicator and Performance Metrics
-    functional-requirements.md:
-      title: Functional Requirements
-    non-functional-requirements.md:
-      title: Non-functional Requirements
-  data-models-and-exchange.md:
-    title: Data Models and Exchange
-    system-actors.md:
-      title: System Actors
-    sequence-diagrams.md:
-      title: Sequence Diagrams
-    transactions.md:
-      title: Transactions
-#    logical-models.md:
-#      title: Logical Models
-    indicators-measures.md:
-      title: Indicators and Measures
-#    profiles.xml:
-#      title: Content profiles
-    codings.md:
-      title: Codings
-
-  deployment.md:
-    Title: Deployment
-    security-privacy.md:
-      title: Security and Privacy Considerations
-    testing.md: 
-      title: Testing
-    test-data.md: 
-      title: Test Data
-    reference-implementations.md: 
-      title: Reference Implementations
     downloads.md: 
       title: Downloads
-  indices.md:
-    title: Indices
-    artifacts.md: 
-      title: Artifact Index
-    maps.md: 
-      title: Mappings
 
-#
+
 #
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
@@ -135,38 +72,11 @@ pages:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: 
-    Summary: index.html
+    Home: index.html
     Changes: changes.html
-    Dependencies: dependencies.html
-    References: references.html
-    Adapting Guidelines for Country use: adapting.html
-  Business Requirements: 
-    Concepts: concepts.html
-    Generic Personas: personas.html
-    User Scenarios: scenarios.html
-    Business Processes: business-processes.html
-    Data Dictionary: dictionary.html
-    Decision-support Logic: decision-logic.html
-    Indicator and Performance Metrics: indicators.html
-    Functional Requirements: functional-requirements.html
-    Non-functional Requirements: non-functional-requirements.html
-  Data Models and Exchange:
-    System Actors: system-actors.html
-    Sequence Diagrams: sequence-diagrams.html
-    Transactions: transactions.html
-    Indicators and Measures: indicators-measures.html
-    Codings: codings.html
-
-  Deployment:
-    Security and Privacy Considerations: security-privacy.html
-    Testing: testing.html
-    Test Data: test-data.html
-    Reference Implementations: reference-implementations.html
     Downloads: downloads.html
-
   Indices:
     Artifact Index: artifacts.html
-    Mappings: maps.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
